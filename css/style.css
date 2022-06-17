@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #F2F4F9;
+    font: 14px 'Open Sans', sans-serif;
+    line-height: 18px;
+}
+
+hr {
+    border: 1px solid #E2E8F0;
+}
+
+.box {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 5px rgba(226, 232, 240, 0.5);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.hero {
+    background: #F2F4F9;
+}
+
+.hero .btn-social {
+    background: #fff;
+}
+
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.text-blue {
+    color: #009EF7;
+}
+
+.intro .bio {
+    line-height: 1.8rem;
+    text-align: justify;
+}
+
+.logo-container {
+    background-color: #F1EFF0;
+    align-items: center;
+    display: flex;
+    min-height: 100px;
+    min-width: 100px;
+}
