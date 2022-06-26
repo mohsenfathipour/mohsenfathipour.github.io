@@ -68,3 +68,61 @@ h2 {
 .skills .font-monospace {
     line-height: .8rem;
 }
+
+
+.contact .map img {
+    width: 100%;
+}
+
+
+.contact .address {
+    padding: 30px;
+    background: url("../img/bg/contact-bar.png");
+    background: url("../img/bg/contact-bar.png");
+    background-color: #fff;
+    background-repeat: repeat-y;
+    border-width: 0px 1px 1px 0px;
+    border-color: #d6d6d6;
+    border-style: solid;
+
+    box-shadow: 1px 1px 2px 2px rgb(238 238 238 / 80%);
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    border-color: transparent;
+}
+
+.contact .address:before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 133px;
+    height: 55px;
+    background: url("../img/bg/contact-bar-bg.png");
+}
+
+
+.contact .address ul li {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.contact .address ul li:last-child {
+    border-radius: 0;
+}
+
+.contact .address a {
+    color: #404040;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.contact .address a:hover {
+    color: #009EF7;
+
+}
