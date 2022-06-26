@@ -38,6 +38,12 @@ hr {
 }
 
 
+.hero .btn-social:hover {
+    background: #009EF7;
+    color: #fff;
+}
+
+
 h2 {
     font-size: 1.5rem;
 }
@@ -57,4 +63,8 @@ h2 {
     display: flex;
     min-height: 100px;
     min-width: 100px;
+}
+
+.skills .font-monospace {
+    line-height: .8rem;
 }
