@@ -69,6 +69,20 @@ h2 {
     line-height: .8rem;
 }
 
+.experiences .logo-container {
+    width: 120px;
+    height: 120px;
+}
+
+.experiences li {
+    display: inline-block;
+}
+
+.experiences li::before {
+    margin-right: 8px;
+    content: "\25aa"
+}
+
 .contact .map {
     min-height: 200px;
 }
