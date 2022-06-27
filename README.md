@@ -1,12 +1,12 @@
 ## Resume [MohsenFathipour.com](https://wwww.mohsenfathipour.com)
 Personal simple and minimal resume website for Mohsen Fathipour.
 
-### based on
+#### based on
 
 - Bootstrap 5
 - jQuery 3.6
 
-### Deployed at
+#### Deployed at
 
 - GitHub Pages
 
