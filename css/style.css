@@ -83,9 +83,44 @@ h2 {
     content: "\25aa"
 }
 
-.contact .map {
-    min-height: 200px;
+/*------------------------------------*\
+   Experiences Collapse
+\*------------------------------------*/
+
+.show-more-box {
+    position: relative;
 }
+
+.show-more-box .show-more-text {
+    height: 100px;
+    transition: height 0.15s ease-out;
+    overflow: hidden;
+}
+
+.show-more-box .fader {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    display: block;
+    height: 100px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+            0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.show-more-box .show-more-btn {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #232323;
+    cursor: pointer;
+}
+
+.show-more-box .show-more-btn.show-less {
+    display: none;
+}
+
 
 .contact .map img {
     width: 100%;
