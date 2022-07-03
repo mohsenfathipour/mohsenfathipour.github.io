@@ -1,4 +1,4 @@
-## Resume [MohsenFathipour.com](https://wwww.mohsenfathipour.com)
+## Resume [MohsenFathipour.com](https://www.mohsenfathipour.com)
 Personal simple and minimal resume website for Mohsen Fathipour.
 
 #### based on
