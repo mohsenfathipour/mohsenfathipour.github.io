@@ -18,6 +18,7 @@
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/print.css" rel="stylesheet">
 
     <!-- FavIcon -->
     <link rel="icon" type="image/x-icon" href="img/favicon/64.png">
@@ -48,8 +49,8 @@
 
 <main class="container">
 
-    <!-- Hero -->
-    <section class="hero row align-items-center mb-2">
+    <!-- Hero HTML -->
+    <section class="hero row align-items-center  mb-2 d-print-none">
         <div class="col-xl-3 col-md-3 p-5">
             <img src="img/avatar.jpg" alt="Mohsen Fathipour" class="img-fluid rounded-circle img-thumbnail">
         </div>
@@ -104,10 +105,47 @@
     </section>
     <!-- ./Hero -->
 
+    <!-- Hero PRINT -->
+    <section class="hero row align-items-center mb-2 d-none d-print-flex">
+        <div class="col-xl-3 col-md-3 p-5">
+            <img src="img/avatar.jpg" alt="Mohsen Fathipour" class="img-fluid rounded-circle img-thumbnail">
+        </div>
+        <div class="col-xl-7 col-md-4 text-center text-md-start mb-4 align-items-center">
+            <h1>Mohsen Fathipour</h1>
+            <p class="fst-italic text-secondary">Web Developer, Project Manager and Technology Teacher</p>
+        </div>
+        <div class="col-xl-2 col-md-5">
+
+            <a class="btn btn-social d-block border-1 rounded  mb-2 d-flex justify-content-between align-items-center"
+               target="_blank" href="https://www.linkedin.com/in/mohsenfathipour/" rel="nofollow">
+                <div>
+                    <i class="fab fa-skype me-2"></i>
+                    <span>Skype: <b>Mohsen Fathipour</b></span>
+                </div>
+            </a>
+            <a class="btn btn-social d-block border-1 rounded  mb-2 d-flex justify-content-between align-items-center"
+               target="_blank" href="https://www.youtube.com/channel/UC2w9u2r5YbJeE4AqPdgwFJA" rel="nofollow">
+                <div>
+                    <i class="fad fa-envelope me-2"></i>
+                    <span>Email: <b>info@mohsenfathipour.com</b></span>
+                </div>
+            </a>
+            <a class="btn btn-social d-block border-1 rounded  mb-2 d-flex justify-content-between align-items-center"
+               target="_blank" href="https://github.com/mohsenfathipour" rel="nofollow">
+                <div>
+                    <i class="fad fa-phone-square me-2"></i>
+                    <span>Mobile: <b>09125676987</b></span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+    <!-- ./Hero -->
+
     <!-- Intro -->
     <section class="intro box row px-4 py-3">
 
-        <div class="col-xl-9 pe-xl-4">
+        <div class="col-xl-9 col-md-9 pe-xl-4">
 
             <h2 class="my-3 fst-italic">
                 <i class="fad fa-angle-double-right text-primary"></i> Introduction
@@ -123,7 +161,7 @@
                 and time planning.
             </p>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-md-3">
 
             <h2 class="my-4 fst-italic ">Basic Information</h2>
 
@@ -167,7 +205,7 @@
         </h2>
 
 
-        <div class="col-xl-4 align-items-center">
+        <div class="col-xl-4 col-md-4 align-items-center">
 
             <dl class="row">
                 <dt class="col-8 text-center mb-3">
@@ -199,7 +237,7 @@
 
         </div>
 
-        <div class="col-xl-4 align-items-center">
+        <div class="col-xl-4 col-md-4 align-items-center">
 
             <dl class="row">
                 <dt class="col-8 text-center mb-3">
@@ -232,7 +270,7 @@
 
         </div>
 
-        <div class="col-xl-4 align-items-center">
+        <div class="col-xl-4 col-md-4 align-items-center">
 
             <dl class="row">
                 <dt class="col-8 text-center mb-3">
@@ -295,8 +333,6 @@
             </div>
         </div>
 
-        <hr>
-
         <div class="d-flex align-items-top mb-3">
 
             <div class="logo-container d-none d-md-flex align-self-start p-3">
@@ -316,8 +352,6 @@
             </div>
         </div>
 
-        <hr>
-
         <div class="d-flex align-items-top mb-3">
 
             <div class="logo-container d-none d-md-flex align-self-start p-3">
@@ -333,8 +367,6 @@
 
             </div>
         </div>
-
-        <hr>
 
         <div class="d-flex align-items-top mb-3">
 
@@ -369,7 +401,7 @@
                     </div>
                     <div class="fader"></div>
 
-                    <a class="show-more-btn show-more d-block">
+                    <a class="show-more-btn show-more d-print-none d-block">
                         <i class="fad fa-chevron-double-down"></i>
                         Show More
                         <i class="fad fa-chevron-double-down"></i>
@@ -384,8 +416,6 @@
 
             </div>
         </div>
-
-        <hr>
 
         <div class="d-flex align-items-top mb-3">
 
@@ -407,8 +437,6 @@
             </div>
         </div>
 
-        <hr>
-
         <div class="d-flex align-items-top mb-3">
 
             <div class="logo-container d-none d-md-flex align-self-start p-3">
@@ -427,8 +455,6 @@
                 </p>
             </div>
         </div>
-
-        <hr>
 
         <div class="d-flex align-items-top mb-3">
 
@@ -471,7 +497,7 @@
                     </div>
                     <div class="fader"></div>
 
-                    <a class="show-more-btn show-more d-block">
+                    <a class="show-more-btn show-more d-print-none d-block">
                         <i class="fad fa-chevron-double-down"></i>
                         Show More
                         <i class="fad fa-chevron-double-down"></i>
@@ -484,8 +510,6 @@
                 </div>
             </div>
         </div>
-
-        <hr>
 
         <div class="d-flex align-items-top mb-3">
 
@@ -548,7 +572,7 @@
                     </div>
                     <div class="fader"></div>
 
-                    <a class="show-more-btn show-more d-block">
+                    <a class="show-more-btn show-more d-print-none d-block">
                         <i class="fad fa-chevron-double-down"></i>
                         Show More
                         <i class="fad fa-chevron-double-down"></i>
@@ -561,8 +585,6 @@
                 </div>
             </div>
         </div>
-
-        <hr>
 
         <div class="d-flex align-items-top mb-3">
 
@@ -583,8 +605,6 @@
                 </p>
             </div>
         </div>
-
-        <hr>
 
         <div class="d-flex align-items-top mb-3">
 
@@ -631,8 +651,6 @@
             </div>
         </div>
 
-        <hr>
-
         <div class="d-flex align-items-center mb-3">
             <img src="img/educations/nodet.jpg" alt="nodet" class="d-none d-md-block">
 
@@ -654,7 +672,7 @@
     <!-- ./Educations -->
 
     <!-- Contact -->
-    <section class="contact row box p-4">
+    <section class="contact row box p-4 d-print-none">
 
         <h2 class="mb-4 col-12 fst-italic">
             <i class="fad fa-angle-double-right text-primary"></i> Contact Information
@@ -674,6 +692,10 @@
                         <h6>Email</h6>
                         <a href="mailto:info@mohsenfathipour.com">info@mohsenfathipour.com</a>
                     </li>
+                    <li class="list-group-item">
+                        <h6>Mobile</h6>
+                        <a href="tel:+989125676987">09125676987</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -685,7 +707,7 @@
     <!-- Copy Right -->
     <section class="row mb-4">
         <div class="col-12 text-center text-muted">
-            proudly made with <i class="fad fa-heart mx-2"></i> by <b class="ms-2">Mohsen Fathipour</b>
+            proudly made with <i class="fad fa-heart mx-2"></i> by <b class="ms-2 d-print-none">Mohsen Fathipour</b><b class="ms-2 d-none d-print-inline-block">www.MohsenFathipour.com</b>
         </div>
     </section>
     <!-- ./Copy Right -->

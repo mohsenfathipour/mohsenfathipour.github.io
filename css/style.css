@@ -9,13 +9,14 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
+    background-color: #F2F4F9;
 }
 
 body {
     margin: 0;
-    background-color: #F2F4F9;
     font: 14px 'Open Sans', sans-serif;
     line-height: 18px;
+    background-color: #F2F4F9;
 }
 
 hr {
@@ -83,9 +84,27 @@ h2 {
     content: "\25aa"
 }
 
+.experiences > div {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.experiences > div:last-child {
+    border-bottom: none;
+}
+
 /*------------------------------------*\
    Experiences Collapse
 \*------------------------------------*/
+
+.educations > div {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.educations > div:last-child {
+    border-bottom: none;
+}
 
 .show-more-box {
     position: relative;
@@ -124,7 +143,7 @@ h2 {
 
 .contact .map img {
     width: 100%;
-    min-height: 200px;
+    min-height: 275px;
 }
 
 
