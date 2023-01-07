@@ -101,4 +101,11 @@
     .hero h1 {
         font-size: 2rem;
     }
+
+    .show-more-box .show-more-text {
+        overflow: auto;
+    }
+    .print-mt-1 {
+        margin-top: 1.8rem !important;
+    }
 }
